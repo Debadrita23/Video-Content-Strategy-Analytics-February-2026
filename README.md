@@ -30,16 +30,6 @@ Video Performance Archetypes
 Segmented the dataset into four performance archetypes using dual percentile ranking:
 ArchetypeCriteria🚀 Rising StarHigh VPD percentile + recent upload🌲 Evergreen WinnerHigh all-time percentile + sustained VPD (90+ days old)🌇 Fading StarHigh all-time + low VPD percentile🌱 Promising NewcomerLow all-time + high VPD percentile
 
-📁 Repository Structure
-youtube-content-strategy-analysis/
-│
-├── Video_Content_Strategy.ipynb   # Main analysis notebook
-├── README.md
-└── data/
-    ├── Hypothesis1_data.csv        # Video-level metrics
-    ├── comments_aggregated.csv     # Per-video sentiment aggregates
-    └── raw_datasets/
-        └── comments_clean.csv      # Raw comment-level data
 
 🔬 Dataset
 
@@ -48,25 +38,11 @@ Scope: ~1,900 videos across 40+ keyword categories
 Features: Views, likes, comments, publication date, keyword tags, and scraped comment sentiment scores
 
 
-📦 Dependencies
-pythonpandas
-numpy
-matplotlib
-seaborn
-scipy
-statsmodels
-Install with:
-bashpip install pandas numpy matplotlib seaborn scipy statsmodels
-
-⚠️ Key Caveats
-
-Correlation ≠ Causation: Sentiment and controversy may be consequences of view counts rather than causes (reverse causality). Results are associative, not causal.
-Comment sampling: Only 10 comments per video were analysed — sentiment estimates carry noise, especially for high-volume videos.
-Constructed metrics: CCS and SWES are custom proxies, not validated psychometric scales. Bucket thresholds are data-driven but nonetheless arbitrary.
-No channel-level controls: Subscriber count, channel age, and upload frequency are unobserved confounders in all models.
 
 
-👤 Author
-[Your Name]
+
+
+
+👤 Author: Debadrita Deb
 Data Analyst | Statistical Modelling | Python
-LinkedIn · Portfolio
+LinkedIn https://www.linkedin.com/in/debadrita-deb-021772195/
