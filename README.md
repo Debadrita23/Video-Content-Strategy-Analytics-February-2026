@@ -5,7 +5,7 @@
 > **Can data tell us what makes a YouTube video last?**  
 > This project applies rigorous statistical methodology to a Kaggle YouTube dataset to test three original hypotheses about video performance drivers — content type, comment sentiment, and controversy dynamics.
 
----
+-----
 
 ## 🧪 Hypotheses Tested
 
